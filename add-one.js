@@ -1,4 +1,6 @@
-console.log("hello world");
-var x = 3 + 1;
-console.log(x);
+// console.log("hello world");
+;
 
+var number = process.argv[2];
+var answer = +number + 1; 
+process.stdout.write(answer.toString());
